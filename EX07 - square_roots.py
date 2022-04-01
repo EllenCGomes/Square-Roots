@@ -18,9 +18,9 @@ else:
             sqrt1 = (-b + math.sqrt(delta))/(2*a)
             sqrt2 = (-b - math.sqrt(delta))/(2*a)
             if sqrt1<sqrt2:   
-                print("the roots for this equation are {} and {}".format(sqrt1, sqrt2))
+                print(f"the roots for this equation are {sqrt1} and {sqrt2}")
             else:
-                print("the roots for this equation are {} and {}".format(sqrt2, sqrt1))   
+                print(f"the roots for this equation are {sqrt2} and {sqrt1}")   
 
 
 
